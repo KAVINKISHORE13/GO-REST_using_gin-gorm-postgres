@@ -27,7 +27,7 @@ GORM package installed for Go to interact with PostgreSQL.
 ### Installation
 1. Clone the Repository
 
- #### git clone https://github.com/yourusername/
+ #### git clone https://github.com/KAVINKISHORE13/Go_with_React_EMS.git
 
 2. Frontend Setup
 
