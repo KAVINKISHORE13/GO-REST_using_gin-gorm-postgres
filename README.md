@@ -33,11 +33,39 @@ Before you begin, make sure you have the following installed:
    git clone https://github.com/yourusername/employee-management-system.git
 
 
-2. Frontend Setup
+2. **Frontend Setup**
+ **Navigate to Frontend Directory**
 
-#### cd your_project/frontend
-#### npm install
-#### npm start
+   ```bash
+   cd employee-management-system/frontend
+
+   
+**Install Dependencies**
+```bash
+npm install
+
+**Start the Development Server**
+```bash
+npm start
+
+The application will be accessible at http://localhost:3000 in your web browser.
+3.  **Backend Setup**
+**Prerequisites**
+-Go installed.
+
+**Installation**
+Navigate to Backend Directory
+
+-cd employee-management-system/backend
+
+**Install Dependencies**
+```bash
+-go get
+
+**Run the Backend Server**
+```bash
+go run main.go
+
 ## Database Setup
 
 ### Install and Configure PostgreSQL
