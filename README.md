@@ -27,18 +27,16 @@ GORM package installed for Go to interact with PostgreSQL.
 ### Installation
 1. Clone the Repository
 
- #### git clone https://github.com/yourusername/employee-management-system.git
+ #### git clone https://github.com/yourusername/
 
 2. Frontend Setup
 
-#### cd employee-management-system/frontend
+#### cd your_project/frontend
 #### npm install
 #### npm start
 
 3. Backend Setup
 
-#### cd employee-management-system/backend
-#### go get
 #### go run main.go
 
 4. Database Setup
