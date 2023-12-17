@@ -34,7 +34,6 @@ Before you begin, make sure you have the following installed:
 
 
 2. **Frontend Setup**
-3. 
  **Navigate to Frontend Directory**
 
    ```bash
