@@ -34,18 +34,17 @@ Before you begin, make sure you have the following installed:
 
 
 2. **Frontend Setup**
- **Navigate to Frontend Directory**
+**Install Dependencies**
 
-   ```bash
-   cd employee-management-system/frontend
+ cd employee-management-system/frontend
 
    
 **Install Dependencies**
-```bash
+
 npm install
 
 **Start the Development Server**
-```bash
+
 npm start
 
 The application will be accessible at http://localhost:3000 in your web browser.
@@ -59,11 +58,11 @@ Navigate to Backend Directory
 -cd employee-management-system/backend
 
 **Install Dependencies**
-```bash
+
 -go get
 
 **Run the Backend Server**
-```bash
+
 go run main.go
 
 ## Database Setup
