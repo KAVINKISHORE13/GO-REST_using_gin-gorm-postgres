@@ -38,28 +38,50 @@ Before you begin, make sure you have the following installed:
 #### cd your_project/frontend
 #### npm install
 #### npm start
+## Database Setup
 
-3. Backend Setup
+### Install and Configure PostgreSQL
 
-#### go run main.go
+1. Ensure PostgreSQL is installed and running.
 
-4. Database Setup
+2. Create a database for the application.
 
-    Set up PostgreSQL and create a database for the application.
-    Update database configuration in the backend .env file.
+### Update Database Configuration
 
+1. Open the backend `.env` file.
 
-5. Redis Setup
-Ensure Redis is installed and running.
-Update Redis configuration in the backend .env file.
+2. Update the database connection details.
 
+## Redis Setup
 
-6. OAuth Configuration
-Set up OAuth credentials (e.g., from Google, Facebook, etc.).
-Update OAuth configuration in the backend .env file.
+### Install and Start Redis
 
+1. Ensure Redis is installed and running.
 
-7. Usage
-Access the application by visiting http://localhost:3000 in your web browser.
-Users can log in using OAuth authentication.
-Perform CRUD operations on employee records.
+### Update Redis Configuration
+
+1. Open the backend `.env` file.
+
+2. Update the Redis connection details.
+
+## OAuth Configuration
+
+### Set Up OAuth Credentials
+
+1. Obtain OAuth credentials from your preferred provider (e.g., Google, Facebook).
+
+2. Configure OAuth in the backend `.env` file.
+
+## Usage
+
+1. **Access the Application**
+
+   - Open your web browser and go to [http://localhost:3000](http://localhost:3000).
+
+2. **OAuth Authentication**
+
+   - Log in using OAuth authentication.
+
+3. **Perform CRUD Operations**
+
+   - Use the application to perform Create, Read, Update, and Delete operations on employee records.
