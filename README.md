@@ -1,1 +1,0 @@
-# GO-REST_using_gin-gorm-postgres
